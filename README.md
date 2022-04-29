@@ -143,7 +143,7 @@ git pull origin master && git push -u origin master
 git常规操作参考：https://www.cnblogs.com/coderxiaobai/p/14780195.html
 
 git分支操作参考：https://www.cnblogs.com/mcat/p/5831212.html
-
+---
 vscode操作参考:
 
 https://blog.csdn.net/yourstorm/article/details/123987260
@@ -154,3 +154,8 @@ git变基：用rebase代替merge比较好，不会进行合并操作
 https://www.csdn.net/tags/MtTaIg0sODY2ODAwLWJsb2cO0O0O.html
 
 https://blog.csdn.net/wzdede/article/details/107896372
+---
+
+github怎么取消邮箱信息推送：
+
+参考：https://www.csdn.net/tags/OtDaYgwsMTQ3NjQtYmxvZwO0O0OO0O0O.html
