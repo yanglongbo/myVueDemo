@@ -21,10 +21,15 @@ npm run lint
 ```
 
 ### 移动端适配
+
 本项目采用方案一：
+
 方案一：
+
 参考：https://www.cnblogs.com/XHappyness/p/15792482.html
+
 适配方案：amfe-flexible + postcss-pxtorem,注意postcss-pxtorem版本不要超过6，否则运行编译会引起报错。
+
 适配步骤：npm安装amfe-flexible和postcss-pxtorem => index.html中加meta视口 => main.js中引入amfe-flexible => 配置postcss.config.js文件（按750设计稿还是其他自己修改）
 这样，我们就可以按原设计稿尺寸愉快地原样输出写px了。
 ```
