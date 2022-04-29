@@ -96,3 +96,26 @@ eslint报错解决参考：
 https://www.php.cn/tool/vscode/435419.html
 
 https://www.it610.com/article/1297093574302703616.htm
+
+## git 常用操作：
+第一次：远仓只有一个文件夹无代码的话pull不了（会报错）
+git config --global user.name "ylb"
+git config --global user.email "ylb@126.com"
+ssh-keygen -t rsa -C "ylb@126.com"
+cat ~/.ssh/id_rsa.pub
+git remote add origin 远仓地址
+git checkout -b ylb-dev
+git merge master
+git branch master
+git merge ylb-dev
+git add . && git commit -m "feat:新增登录模块"
+git push origin master
+---
+其他：
+git config --global --list
+git branch -vv
+git remote -v
+git pull origin master && git push -u origin master
+
+git常规操作参考：https://www.cnblogs.com/coderxiaobai/p/14780195.html
+git分支操作参考：https://www.cnblogs.com/mcat/p/5831212.html
