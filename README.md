@@ -128,3 +128,6 @@ vscode操作参考:
 https://blog.csdn.net/yourstorm/article/details/123987260
 
 https://www.csdn.net/tags/OtTaIgysMzY4OC1ibG9n.html
+
+git变基：用rebase代替merge比较好，不会进行合并操作
+https://www.csdn.net/tags/MtTaIg0sODY2ODAwLWJsb2cO0O0O.html
