@@ -118,11 +118,13 @@ git remote add origin 远仓地址
 
 git checkout -b ylb-dev
 
-git merge master
+git branch ylb-dev-02
 
-git branch master
+git rebase master
 
-git merge ylb-dev
+git checkout master
+
+git rebase ylb-dev
 
 git add . && git commit -m "feat:新增登录模块"
 
